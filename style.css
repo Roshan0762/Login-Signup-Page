@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c0d3ff;
+}
+.main{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 20px 35px;
+    background-color: #f1f5f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+
+    width: 400px;
+}
+h2{
+    text-align: center;
+    color: #4e4eace6;
+    letter-spacing: 2px;
+    font-size: 32px;
+    margin: 10px auto 20px;
+}
+.inputBox{
+    width: 100%;
+
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input span{
+    color: #005182;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.input input{
+    width: 290px;
+    height: 37px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.message{
+    height: 18px;
+    display: block;
+    text-align: right;
+    color: red;
+    font-size: 13px;
+}
+#submitButton{
+    padding: 10px 16px;
+    margin: 10px auto;
+
+    font-size: 20px;
+    background-color: transparent;
+    color: #4e4eace6;
+    border-color: #4e4eace6;
+    border-radius: 10px;
+    display: block;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+#submitButton:hover{
+    background-color: #4e4eace6;
+    color: white;
+}
